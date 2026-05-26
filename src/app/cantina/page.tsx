@@ -18,7 +18,7 @@ export default function CantinaPage() {
   ];
 
   const themeProps = {
-    defaultButtonVariant: "hover-magnetic",    defaultTextAnimation: "entrance-slide",    borderRadius: "rounded",    contentWidth: "mediumLarge",    sizing: "mediumLarge",    background: "noiseDiagonalGradient",    cardStyle: "gradient-mesh",    primaryButtonStyle: "shadow",    secondaryButtonStyle: "radial-glow",    headingFontWeight: "light"};
+    defaultButtonVariant: "hover-magnetic",    defaultTextAnimation: "entrance-slide",    borderRadius: "rounded",    contentWidth: "mediumLarge",    sizing: "mediumLarge",    background: "noiseDiagonalGradient",    cardStyle: "gradient-mesh",    primaryButtonStyle: "shadow",    secondaryButtonStyle: "radial-glow",    headingFontWeight: "light"} as const;
 
   return (
     <ThemeProvider {...themeProps}>
