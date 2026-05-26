@@ -18,7 +18,7 @@ export default function DolciPage() {
   ];
 
   const themeProps = {
-    defaultButtonVariant: "hover-magnetic",    defaultTextAnimation: "entrance-slide",    borderRadius: "rounded",    contentWidth: "mediumLarge",    sizing: "mediumLarge",    background: "noiseDiagonalGradient",    cardStyle: "gradient-mesh",    primaryButtonStyle: "shadow",    secondaryButtonStyle: "radial-glow",    headingFontWeight: "light"};
+    defaultButtonVariant: "hover-magnetic",    defaultTextAnimation: "entrance-slide",    borderRadius: "rounded",    contentWidth: "mediumLarge",    sizing: "mediumLarge",    background: "noiseDiagonalGradient",    cardStyle: "gradient-mesh",    primaryButtonStyle: "shadow",    secondaryButtonStyle: "radial-glow",    headingFontWeight: "light"} as const;
 
   return (
     <ThemeProvider {...themeProps}>
@@ -62,7 +62,6 @@ export default function DolciPage() {
 
       <div id="dolci-recensioni" data-section="dolci-recensioni">
         <TestimonialCardFifteen
-          title="Dicono dei Nostri Dolci"
           testimonial="I dolci sono delle leccornie… direi opere d’arte. La crema di mascarpone è divina, la millefoglie sublime. Non si può finire una cena qui senza assaggiarli!"
           rating={5}
           author="Cliente Goloso"

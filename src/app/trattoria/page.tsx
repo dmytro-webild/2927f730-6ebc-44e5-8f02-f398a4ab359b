@@ -65,7 +65,6 @@ export default function TrattoriaPage() {
       </div>
       <div id="trattoria-recensioni" data-section="trattoria-recensioni">
         <TestimonialCardFifteen
-          title="Le Voci sulla Nostra Accoglienza"
           testimonial="L'atmosfera è davvero come sentirsi a casa, il camino d'inverno è un tocco magico e il personale è sempre attento e cordiale. Un'esperienza che va oltre il semplice pasto."
           rating={5}
           author="Ospite Fidato"
